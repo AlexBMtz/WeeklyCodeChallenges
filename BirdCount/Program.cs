@@ -11,7 +11,7 @@ namespace BirdCount
             Console.WriteLine("=== Pruebas BirdCount ===");
 
             // Datos de prueba
-            int[] counts = { 0, 2, 5, 3, 7, 8, 4 };
+            int[] counts = { 2, 5, 0, 7, 4, 1, 3 };
             BirdCount birdCount = new BirdCount(counts);
 
             // 1. Probar LastWeek()
