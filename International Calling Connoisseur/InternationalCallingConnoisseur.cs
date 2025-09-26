@@ -15,7 +15,7 @@ namespace International_Calling_Connoisseur
         }
 
         /// <summary>
-        /// Devuelve un diccionario prellenado con 3 códigos:
+        /// Devolvemos un diccionario prellenado con 3 códigos:
         /// 1 -> United States of America
         /// 55 -> Brazil
         /// 91 -> India
@@ -31,9 +31,9 @@ namespace International_Calling_Connoisseur
         }
 
         /// <summary>
-        /// Crea un diccionario vacío y agrega el país indicado.
+        /// Se crea un diccionario vacío y agregamos el país indicado.
         /// </summary>
-        /// <param name="countryCode">Código de marcación del país</param>
+        /// <param name="countryCode">Código del país</param>
         /// <param name="countryName">Nombre del país</param>
         /// <returns>Diccionario con el nuevo país agregado</returns>
         public static Dictionary<int, string> AddCountryToEmptyDictionary(int countryCode, string countryName)
@@ -47,7 +47,7 @@ namespace International_Calling_Connoisseur
         /// Agrega un país a un diccionario existente.
         /// </summary>
         /// <param name="existingDictionary">Diccionario existente</param>
-        /// <param name="countryCode">Código de marcación del país</param>
+        /// <param name="countryCode">Código del país</param>
         /// <param name="countryName">Nombre del país</param>
         /// <returns>Diccionario con el nuevo país agregado</returns>
         public static Dictionary<int, string> AddCountryToExistingDictionary(
@@ -58,7 +58,7 @@ namespace International_Calling_Connoisseur
         }
 
         /// <summary>
-        /// Obtiene el nombre de un país dado su código de marcación.
+        /// Obtenemos el nombre de un país dado su código de marcación.
         /// Si el código no existe, devuelve string.Empty.
         /// </summary>
         public static string GetCountryNameFromDictionary(
