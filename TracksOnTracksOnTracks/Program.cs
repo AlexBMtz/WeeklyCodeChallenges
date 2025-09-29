@@ -25,10 +25,14 @@ namespace TracksOnTracksOnTracks
                 Console.WriteLine("Test 2 Passed");
 
                 //Test 3
-                expected.Add("C#");
-                expected.Add("Clojure");
-                expected.Add("Elm");
-                expected.Add("Bash");
+                expected = new List<string>
+                {
+                    "C#",
+                    "Clojure",
+                    "Elm",
+                    "Bash"
+                };
+                
                 var languages = new List<string>
                 {
                     "C#",
