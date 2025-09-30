@@ -25,6 +25,7 @@ namespace TracksOnTracksOnTracks
                 Console.WriteLine("Test 2 Passed");
 
                 //Test 3
+                var expected = new List<string>();
                 expected.Add("C#");
                 expected.Add("Clojure");
                 expected.Add("Elm");
