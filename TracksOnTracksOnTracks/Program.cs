@@ -93,7 +93,7 @@ namespace TracksOnTracksOnTracks
                 {
                     "C#",
                     "Clojure",
-                    "Elm"
+                    "Elm",
                 };
                 Assert.True(Languages.IsExciting(expected));
 
