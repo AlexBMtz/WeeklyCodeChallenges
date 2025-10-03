@@ -1,0 +1,10 @@
+C:\Users\IlanA\OneDrive\Escritorio\Moviles 2\WeeklyCodeChallenges-Parcial-2-Reto-2\TracksOnTracksOnTracks\bin\Debug\TracksOnTracksOnTracks.exe.config
+C:\Users\IlanA\OneDrive\Escritorio\Moviles 2\WeeklyCodeChallenges-Parcial-2-Reto-2\TracksOnTracksOnTracks\bin\Debug\TracksOnTracksOnTracks.exe
+C:\Users\IlanA\OneDrive\Escritorio\Moviles 2\WeeklyCodeChallenges-Parcial-2-Reto-2\TracksOnTracksOnTracks\bin\Debug\TracksOnTracksOnTracks.pdb
+C:\Users\IlanA\OneDrive\Escritorio\Moviles 2\WeeklyCodeChallenges-Parcial-2-Reto-2\TracksOnTracksOnTracks\bin\Debug\xunit.assert.dll
+C:\Users\IlanA\OneDrive\Escritorio\Moviles 2\WeeklyCodeChallenges-Parcial-2-Reto-2\TracksOnTracksOnTracks\bin\Debug\xunit.assert.xml
+C:\Users\IlanA\OneDrive\Escritorio\Moviles 2\WeeklyCodeChallenges-Parcial-2-Reto-2\TracksOnTracksOnTracks\obj\Debug\TracksOnTracksOnTracks.csproj.AssemblyReference.cache
+C:\Users\IlanA\OneDrive\Escritorio\Moviles 2\WeeklyCodeChallenges-Parcial-2-Reto-2\TracksOnTracksOnTracks\obj\Debug\TracksOnTracksOnTracks.csproj.CoreCompileInputs.cache
+C:\Users\IlanA\OneDrive\Escritorio\Moviles 2\WeeklyCodeChallenges-Parcial-2-Reto-2\TracksOnTracksOnTracks\obj\Debug\TracksOn.115A2144.Up2Date
+C:\Users\IlanA\OneDrive\Escritorio\Moviles 2\WeeklyCodeChallenges-Parcial-2-Reto-2\TracksOnTracksOnTracks\obj\Debug\TracksOnTracksOnTracks.exe
+C:\Users\IlanA\OneDrive\Escritorio\Moviles 2\WeeklyCodeChallenges-Parcial-2-Reto-2\TracksOnTracksOnTracks\obj\Debug\TracksOnTracksOnTracks.pdb

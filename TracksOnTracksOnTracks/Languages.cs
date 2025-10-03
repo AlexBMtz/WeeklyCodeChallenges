@@ -1,53 +1,66 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
+//Ilan Ayala Morales
+//03/10/2023
 namespace TracksOnTracksOnTracks
 {
     public static class Languages
     {
-        public static List<string> NewList()
+        public static List<string> NewList() //Crea una nueva lista de lenguajes
         {
-            throw new NotImplementedException("Please implement the static Languages.NewList() method");
+            return new List<string>();
         }
 
-        public static List<string> GetExistingLanguages()
+        public static List<string> GetExistingLanguages() //Define una lista con lenguajes existentes
         {
-            throw new NotImplementedException("Please implement the static Languages.GetExistingLanguages() method");
+            return new List<string> { "C#", "Clojure", "Elm" };
         }
 
-        public static List<string> AddLanguage(List<string> languages, string language)
+        public static List<string> AddLanguage(List<string> languages, string language) //Agrega un lenguaje a la lista
         {
-            throw new NotImplementedException("Please implement the static Languages.AddLanguage() method");
+            languages.Add(language);
+            return languages;
         }
 
-        public static int CountLanguages(List<string> languages)
+        public static int CountLanguages(List<string> languages) //Cuenta la cantidad de lenguajes en la lista
         {
-            throw new NotImplementedException("Please implement the static Languages.CountLanguages() method");
+            return languages.Count;
         }
 
-        public static bool HasLanguage(List<string> languages, string language)
+        public static bool HasLanguage(List<string> languages, string language) //Verifica si un lenguaje está en la lista
         {
-            throw new NotImplementedException("Please implement the static Languages.HasLanguage() method");
+            return languages.Contains(language);
         }
 
-        public static List<string> ReverseList(List<string> languages)
+        public static List<string> ReverseList(List<string> languages) //Invierte el orden de los lenguajes en la lista
         {
-            throw new NotImplementedException("Please implement the static Languages.ReverseList() method");
+            languages.Reverse();
+            return languages;
         }
 
-        public static bool IsExciting(List<string> languages)
+        public static bool IsExciting(List<string> languages) //Verifica si la lista es "emocionante" según las reglas dadas
         {
-            throw new NotImplementedException("Please implement the static Languages.IsExciting() method");
+            if (languages.Count == 0) return false;
+
+            if (languages[0] == "C#") return true;
+
+            if (languages.Count >= 2 && languages[1] == "C#" && (languages.Count == 2 || languages.Count == 3))
+                return true;
+
+            return false;
         }
 
-        public static List<string> RemoveLanguage(List<string> languages, string language)
+        public static List<string> RemoveLanguage(List<string> languages, string language) //Elimina un lenguaje de la lista
         {
-            throw new NotImplementedException("Please implement the static Languages.RemoveLanguage() method");
+            languages.Remove(language);
+            return languages;
         }
 
-        public static bool IsUnique(List<string> languages)
+        public static bool IsUnique(List<string> languages) //Verifica si todos los lenguajes en la lista son únicos
         {
-            throw new NotImplementedException("Please implement the static Languages.IsUnique() method");
+            return languages.Distinct().Count() == languages.Count;
         }
     }
 }
